@@ -3116,7 +3116,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:BF457"
+		(symbol "Transistor_BJT:MMBT2222A"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -3133,7 +3133,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BF457"
+			(property "Value" "MMBT2222A"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -3142,7 +3142,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -3153,7 +3153,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.pcpaudio.com/pcpfiles/transistores/BF457-8-9.pdf"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3163,7 +3163,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.1A Ic, 160V Vce, High Voltage NPN Transistor, TO-126"
+			(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3172,7 +3172,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN HV High Voltage Transistor"
+			(property "ki_keywords" "NPN Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3181,7 +3181,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?126*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3190,7 +3190,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BF457_0_1"
+			(symbol "MMBT2222A_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -3227,7 +3227,7 @@
 					)
 				)
 			)
-			(symbol "BF457_1_1"
+			(symbol "MMBT2222A_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -3274,7 +3274,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3292,7 +3292,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3310,7 +3310,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6873,17 +6873,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BF457")
-		(at 77.47 93.98 0)
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 77.47 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0ad42326-88d6-47e5-b7e9-c00cfff3f023")
-		(property "Reference" "Q3"
-			(at 82.55 92.7099 0)
+		(uuid "03eff520-87ac-450f-bfde-3795d938ee2c")
+		(property "Reference" "Q4"
+			(at 82.55 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6891,8 +6891,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BF457"
-			(at 82.55 95.2499 0)
+		(property "Value" "MMBT2222A"
+			(at 82.55 185.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6901,7 +6901,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 82.55 95.885 0)
+			(at 82.55 186.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6911,8 +6911,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.pcpaudio.com/pcpfiles/transistores/BF457-8-9.pdf"
-			(at 77.47 93.98 0)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 77.47 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6921,8 +6921,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1A Ic, 160V Vce, High Voltage NPN Transistor, TO-126"
-			(at 77.47 93.98 0)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 77.47 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6931,18 +6931,94 @@
 			)
 		)
 		(pin "2"
-			(uuid "1f8cc876-5b1b-44d3-8225-a4925cf96f60")
-		)
-		(pin "3"
-			(uuid "096c7d01-dcc4-47e3-8cd8-4ce695e42dd5")
+			(uuid "1374a077-ec9d-4093-9e17-8033734c9eb8")
 		)
 		(pin "1"
-			(uuid "a6c7752b-24ed-4f3c-a000-ba4e83e6b0b0")
+			(uuid "862d1732-6569-476f-b92c-c3df486dcc27")
+		)
+		(pin "3"
+			(uuid "df210239-e3bd-4281-858b-7e1596140390")
 		)
 		(instances
-			(project "proyecto de rele wifi molina"
+			(project "PROYECTO COMPLETO MOLLI"
 				(path "/56df7df3-519b-4520-b462-cee64337dbde"
-					(reference "Q3")
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 78.74 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0441d1f3-cf53-4dde-99d0-ef418e1334a9")
+		(property "Reference" "Q1"
+			(at 83.82 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 83.82 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 83.82 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 78.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 78.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "343f9e35-c3c0-4ff1-88e4-3a9d0a575ae4")
+		)
+		(pin "1"
+			(uuid "9b109ca8-0939-48a5-a55f-499ed47bb6d2")
+		)
+		(pin "3"
+			(uuid "c7f497fa-3d5c-44cc-b274-a92f5e283bea")
+		)
+		(instances
+			(project ""
+				(path "/56df7df3-519b-4520-b462-cee64337dbde"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -7449,82 +7525,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BF457")
-		(at 77.47 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d584809-30df-4993-897e-1393817909b5")
-		(property "Reference" "Q1"
-			(at 82.55 182.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BF457"
-			(at 82.55 185.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 82.55 186.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.pcpaudio.com/pcpfiles/transistores/BF457-8-9.pdf"
-			(at 77.47 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 160V Vce, High Voltage NPN Transistor, TO-126"
-			(at 77.47 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6a5f5180-c309-40a5-a68e-3c083d69616c")
-		)
-		(pin "3"
-			(uuid "f6b34e52-6742-489d-9957-47255c574219")
-		)
-		(pin "1"
-			(uuid "240f10e0-c2aa-4ecb-8d19-b48c822eb068")
-		)
-		(instances
-			(project ""
-				(path "/56df7df3-519b-4520-b462-cee64337dbde"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:L7805")
 		(at 199.39 31.75 0)
 		(unit 1)
@@ -7840,6 +7840,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 77.47 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ec89694-c6a0-434c-af0e-03c2cbfb3af0")
+		(property "Reference" "Q2"
+			(at 82.55 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 82.55 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 82.55 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 77.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 77.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3da0238a-884e-46c4-90fb-e87f777cc415")
+		)
+		(pin "1"
+			(uuid "a9e764e6-98d2-4b72-be82-6aa7f0407860")
+		)
+		(pin "3"
+			(uuid "f56b965a-2cff-4bdf-bbe1-2ef10a159191")
+		)
+		(instances
+			(project "PROYECTO COMPLETO MOLLI"
+				(path "/56df7df3-519b-4520-b462-cee64337dbde"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 246.38 137.16 270)
 		(unit 1)
@@ -7908,6 +7984,82 @@
 			(project ""
 				(path "/56df7df3-519b-4520-b462-cee64337dbde"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 78.74 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39173c5a-84af-48e7-bb91-23b72e17d164")
+		(property "Reference" "Q3"
+			(at 83.82 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 83.82 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 83.82 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 78.74 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 78.74 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8ba23421-7783-47e5-9ede-ff09937abfb0")
+		)
+		(pin "1"
+			(uuid "56892284-94a2-4a9b-b796-da2507ba9708")
+		)
+		(pin "3"
+			(uuid "e559e2aa-cbf7-4f88-a8b9-5caf23b5573c")
+		)
+		(instances
+			(project "PROYECTO COMPLETO MOLLI"
+				(path "/56df7df3-519b-4520-b462-cee64337dbde"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -8769,7 +8921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 80.01 172.72 0)
 			(effects
 				(font
@@ -8989,7 +9141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 81.28 38.1 0)
 			(effects
 				(font
@@ -9275,82 +9427,6 @@
 			(project ""
 				(path "/56df7df3-519b-4520-b462-cee64337dbde"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BF457")
-		(at 78.74 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88c1072a-0ad8-4f1d-8fd3-abd783a02213")
-		(property "Reference" "Q2"
-			(at 83.82 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BF457"
-			(at 83.82 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 83.82 140.335 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.pcpaudio.com/pcpfiles/transistores/BF457-8-9.pdf"
-			(at 78.74 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 160V Vce, High Voltage NPN Transistor, TO-126"
-			(at 78.74 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2a4826e4-4f1c-496c-ac1e-a4f06cfa205e")
-		)
-		(pin "3"
-			(uuid "3b781ccf-e212-4813-858c-637d6577f7fe")
-		)
-		(pin "1"
-			(uuid "21cbc858-77db-4261-afb0-c660a6286a92")
-		)
-		(instances
-			(project "proyecto de rele wifi molina"
-				(path "/56df7df3-519b-4520-b462-cee64337dbde"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -11091,7 +11167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 80.01 82.55 0)
 			(effects
 				(font
@@ -11448,7 +11524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 81.28 127 0)
 			(effects
 				(font
@@ -12474,82 +12550,6 @@
 			(project ""
 				(path "/56df7df3-519b-4520-b462-cee64337dbde"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BF457")
-		(at 78.74 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fcf0e066-8308-4e03-9311-69315e7a477e")
-		(property "Reference" "Q4"
-			(at 83.82 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BF457"
-			(at 83.82 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 83.82 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.pcpaudio.com/pcpfiles/transistores/BF457-8-9.pdf"
-			(at 78.74 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 160V Vce, High Voltage NPN Transistor, TO-126"
-			(at 78.74 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4228a853-f116-4755-932b-04017122f515")
-		)
-		(pin "3"
-			(uuid "ca66387e-c5d0-407f-9afe-0aa54919ebf5")
-		)
-		(pin "1"
-			(uuid "32be05b7-2bcd-4540-bd44-0c52f519f8c4")
-		)
-		(instances
-			(project "proyecto de rele wifi molina"
-				(path "/56df7df3-519b-4520-b462-cee64337dbde"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
